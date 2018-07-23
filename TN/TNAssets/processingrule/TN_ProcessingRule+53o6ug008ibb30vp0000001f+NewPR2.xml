@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<IDataXMLCoder version="1.0">
+  <record javaclass="com.wm.data.ISMemDataImpl">
+    <record name="version" javaclass="com.wm.data.ISMemDataImpl">
+      <value name="major">9</value>
+      <value name="minor">9</value>
+    </record>
+    <idatacodable name="rules" javaclass="com.wm.app.tn.route.RoutingRuleList">
+      <list name="contents">
+        <record javaclass="com.wm.app.tn.route.RoutingRule">
+          <value name="RuleName">NewPR2</value>
+          <value name="RuleDescription">New processing rule for Automation</value>
+          <value name="Disabled?">false</value>
+          <null name="SenderID"/>
+          <null name="ReceiverID"/>
+          <array name="DocTypeID" type="value" depth="1">
+            <value>53o6ug008ibb1h4e0000001c</value>
+          </array>
+          <null name="UserStatus"/>
+          <value name="HasErrors">don't care</value>
+          <record name="PreRoutingFlags" javaclass="com.wm.app.tn.route.PreRoutingFlags">
+            <value name="verify?">don't care</value>
+            <value name="validate?">don't care</value>
+            <value name="persist?">don't care</value>
+            <value name="unique?">don't care</value>
+            <value name="persistOption?">don't care</value>
+            <null name="dupCheckSvc"/>
+          </record>
+          <null name="AlertID"/>
+          <null name="AlertType"/>
+          <null name="AlertSubject"/>
+          <null name="AlertMessage"/>
+          <null name="ResponseMessage"/>
+          <null name="IntendedUserStatus"/>
+          <null name="ServiceName"/>
+          <null name="ServiceInput"/>
+          <idatacodable name="ServiceAsync?" javaclass="com.wm.data.MBoolean">            <value name="MBoolean">false</value>
+          </idatacodable>
+          <null name="SendTo"/>
+          <value name="LastModified">2014-03-06 14:50:19.967</value>
+          <null name="AttributeConditions"/>
+          <null name="DeliveryQueue"/>
+          <value name="RuleID">53o6ug008ibb30vp0000001f</value>
+          <value name="LastChangeID">53o6ug008ibb2ipt00000004</value>
+          <value name="LastChangeUser">administrator</value>
+          <value name="LastChangeSession">d21bc8e0e1d117d394e9978d62b49a85</value>
+          <number name="RuleIndex" type="java.lang.Integer">4</number>
+          <null name="SenderGroup"/>
+          <null name="ReceiverGroup"/>
+          <null name="SenderDisplayName"/>
+          <null name="ReceiverDisplayName"/>
+          <array name="DocTypeName" type="value" depth="1">
+            <value>Partner1</value>
+          </array>
+          <null name="SenderGroupName"/>
+          <null name="ReceiverGroupName"/>
+          <null name="ToMwSString"/>
+        </record>
+      </list>
+    </idatacodable>
+  </record>
+</IDataXMLCoder>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<IDataXMLCoder version="1.0">
+  <record javaclass="com.wm.data.ISMemDataImpl">
+    <record name="version" javaclass="com.wm.data.ISMemDataImpl">
+      <value name="major">9</value>
+      <value name="minor">9</value>
+    </record>
+    <idatacodable name="rules" javaclass="com.wm.app.tn.route.RoutingRuleList">
+      <list name="contents">
+        <record javaclass="com.wm.app.tn.route.RoutingRule">
+          <value name="RuleName">Profile Validation Extended Fields</value>
+          <value name="RuleDescription">Fires wm.tn.validation:validateExtFields</value>
+          <value name="Disabled?">false</value>
+          <null name="SenderID"/>
+          <null name="ReceiverID"/>
+          <array name="DocTypeID" type="value" depth="1">
+            <value>0af00103f70d0bcc00000002</value>
+          </array>
+          <null name="UserStatus"/>
+          <value name="HasErrors">don't care</value>
+          <record name="PreRoutingFlags" javaclass="com.wm.app.tn.route.PreRoutingFlags">
+            <value name="verify?">no</value>
+            <value name="validate?">no</value>
+            <value name="persist?">no</value>
+            <value name="unique?">don't care</value>
+            <value name="persistOption?">persist none</value>
+            <null name="dupCheckSvc"/>
+          </record>
+          <null name="AlertID"/>
+          <null name="AlertType"/>
+          <null name="AlertSubject"/>
+          <null name="AlertMessage"/>
+          <null name="ResponseMessage"/>
+          <null name="IntendedUserStatus"/>
+          <value name="ServiceName">wm.tn.validation:validateExtFields</value>
+          <null name="ServiceInput"/>
+          <value name="ServiceAsync?">sync</value>
+          <null name="SendTo"/>
+          <value name="LastModified">2014-03-05 18:25:29.727</value>
+          <null name="AttributeConditions"/>
+          <null name="DeliveryQueue"/>
+          <value name="RuleID">53o6ug008i95089900000006</value>
+          <value name="LastChangeID">53o6ug008i95089900000007</value>
+          <value name="LastChangeUser">Administrator</value>
+          <value name="LastChangeSession">startup</value>
+          <number name="RuleIndex" type="java.lang.Integer">2</number>
+          <null name="SenderGroup"/>
+          <null name="ReceiverGroup"/>
+          <null name="SenderDisplayName"/>
+          <null name="ReceiverDisplayName"/>
+          <array name="DocTypeName" type="value" depth="1">
+            <value>PROFVAL_extFields</value>
+          </array>
+          <null name="SenderGroupName"/>
+          <null name="ReceiverGroupName"/>
+          <null name="ToMwSString"/>
+        </record>
+      </list>
+    </idatacodable>
+  </record>
+</IDataXMLCoder>

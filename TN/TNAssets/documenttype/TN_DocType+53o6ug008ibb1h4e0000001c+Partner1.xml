@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<IDataXMLCoder version="1.0">
+  <record javaclass="com.wm.data.ISMemDataImpl">
+    <record name="version" javaclass="com.wm.data.ISMemDataImpl">
+      <value name="major">9</value>
+      <value name="minor">9</value>
+    </record>
+    <record name="types" javaclass="com.wm.data.ISMemDataImpl">
+      <idatacodable name="53o6ug008ibb1h4e0000001c" javaclass="com.wm.app.tn.doc.XMLDocType">
+        <value name="TypeID">53o6ug008ibb1h4e0000001c</value>
+        <value name="TypeName">Partner1</value>
+        <value name="TypeDescription">Partner1 doc with ref to PORequest</value>
+        <idatacodable name="Deleted" javaclass="com.wm.data.MBoolean">          <value name="MBoolean">false</value>
+        </idatacodable>
+        <idatacodable name="Hidden" javaclass="com.wm.data.MBoolean">          <value name="MBoolean">false</value>
+        </idatacodable>
+        <idatacodable name="SenderFromSession" javaclass="com.wm.data.MBoolean">          <value name="MBoolean">false</value>
+        </idatacodable>
+        <value name="LastModified">2014-03-06 14:50:55.737</value>
+        <value name="ValidationSvc">wm.tn.doc.xml:validate</value>
+        <value name="VerificationSvc">wm.tn.doc.xml:verify</value>
+        <value name="SigningSvc">wm.tn.doc.xml:sign</value>
+        <record name="PreProcessingFlags" javaclass="com.wm.app.tn.route.PreRoutingFlags">
+          <value name="verify?">no</value>
+          <value name="validate?">no</value>
+          <value name="persist?">yes</value>
+          <value name="unique?">don't care</value>
+          <value name="persistOption?">content, attributes and activity log</value>
+          <null name="dupCheckSvc"/>
+        </record>
+        <record name="Attributes" javaclass="com.wm.data.ISMemDataImpl">
+          <idatacodable name="53o6ug008ibaovu50000000v" javaclass="com.wm.app.tn.doc.BizDocAttributeTransform">
+            <value name="function">2</value>
+            <null name="svc"/>
+            <array name="args" type="value" depth="1">
+              <null/>
+            </array>
+            <value name="preFunction">-1</value>
+            <array name="preFnArgs" type="value" depth="1">
+              <null/>
+            </array>
+            <record name="attrib" javaclass="com.wm.app.tn.doc.BizDocAttribute">
+              <value name="AttributeID">53o6ug008ibaovu50000000v</value>
+              <value name="AttributeName">Cost</value>
+              <value name="AttributeDescription">Description for Cost</value>
+              <value name="AttributeType">NUMBER</value>
+              <idatacodable name="Deleted?" javaclass="com.wm.data.MBoolean">                <value name="MBoolean">false</value>
+              </idatacodable>
+              <idatacodable name="Persist?" javaclass="com.wm.data.MBoolean">                <value name="MBoolean">true</value>
+              </idatacodable>
+              <value name="LastModifiedTime">2014-03-06 14:44:51.207</value>
+              <value name="VERSION_NO">10.3.0.0</value>
+              <idatacodable name="System?" javaclass="com.wm.data.MBoolean">                <value name="MBoolean">false</value>
+              </idatacodable>
+            </record>
+            <null name="IDTypeName"/>
+            <value name="VERSION_NO">10.3.0.0</value>
+          </idatacodable>
+        </record>
+        <record name="RequiredAttributes" javaclass="com.wm.data.ISMemDataImpl">
+          <value name="SenderID">false</value>
+          <value name="ReceiverID">false</value>
+          <value name="53o6ug008ibaovu50000000v">false</value>
+        </record>
+        <null name="PipelineMatchIData"/>
+        <idatacodable name="Routing" javaclass="com.wm.data.MBoolean">          <value name="MBoolean">true</value>
+        </idatacodable>
+        <idatacodable name="BAMMonitorableDoctype" javaclass="com.wm.data.MBoolean">          <value name="MBoolean">false</value>
+        </idatacodable>
+        <record name="BAMMonitoringAttributes" javaclass="com.wm.data.ISMemDataImpl">
+          <record name="Sender" javaclass="com.wm.data.ISMemDataImpl">
+            <value name="OriginalAttributeName">Sender</value>
+          </record>
+          <record name="Receiver" javaclass="com.wm.data.ISMemDataImpl">
+            <value name="OriginalAttributeName">Receiver</value>
+          </record>
+          <record name="InternalID" javaclass="com.wm.data.ISMemDataImpl">
+            <value name="OriginalAttributeName">InternalID</value>
+          </record>
+          <record name="53o6ug008ibaovu50000000v" javaclass="com.wm.data.ISMemDataImpl">
+            <value name="OriginalAttributeName">Cost</value>
+          </record>
+        </record>
+        <value name="BAMEventMap">TN : Partner1</value>
+        <null name="BAMAction"/>
+        <value name="BAMEventMapName">TN : Partner1</value>
+        <null name="SubDocTypeID"/>
+        <value name="BAMAttrListEventOption">false</value>
+        <null name="BAMDocTypeMapping"/>
+        <null name="BAMDocTypeDependency"/>
+        <value name="Type">1</value>
+        <array name="queries" type="value" depth="1">
+        </array>
+        <record name="envelopeIData" javaclass="com.wm.data.ISMemDataImpl">
+          <idatacodable name="SenderID" javaclass="com.wm.app.tn.doc.EnvelopeData">
+            <value name="envId">SenderID</value>
+            <value name="query">/Partner1[0]/fromRole[0]/PartnerRoleDescription[0]/DUNS[0]</value>
+            <record name="bdat" javaclass="com.wm.data.ISMemDataImpl">
+              <value name="function">10</value>
+              <null name="svc"/>
+              <array name="args" type="value" depth="1">
+                <value>1</value>
+              </array>
+              <value name="preFunction">-1</value>
+              <array name="preFnArgs" type="value" depth="1">
+                <null/>
+              </array>
+              <record name="attrib" javaclass="com.wm.app.tn.doc.BizDocAttribute">
+                <value name="AttributeID">SenderID</value>
+                <value name="AttributeName">envelope</value>
+                <null name="AttributeDescription"/>
+                <value name="AttributeType">STRING</value>
+                <idatacodable name="Deleted?" javaclass="com.wm.data.MBoolean">                  <value name="MBoolean">false</value>
+                </idatacodable>
+                <idatacodable name="Persist?" javaclass="com.wm.data.MBoolean">                  <value name="MBoolean">true</value>
+                </idatacodable>
+                <null name="LastModifiedTime"/>
+                <value name="VERSION_NO">9.0.1.0</value>
+                <idatacodable name="System?" javaclass="com.wm.data.MBoolean">                  <value name="MBoolean">false</value>
+                </idatacodable>
+              </record>
+              <value name="IDTypeName">DUNS</value>
+              <value name="VERSION_NO">10.3.0.0</value>
+            </record>
+            <value name="VERSION_NO">10.3.0.0</value>
+          </idatacodable>
+          <idatacodable name="ReceiverID" javaclass="com.wm.app.tn.doc.EnvelopeData">
+            <value name="envId">ReceiverID</value>
+            <value name="query">/Partner1[0]/toRole[0]/PartnerRoleDescription[0]/DUNS[0]</value>
+            <record name="bdat" javaclass="com.wm.data.ISMemDataImpl">
+              <value name="function">10</value>
+              <null name="svc"/>
+              <array name="args" type="value" depth="1">
+                <value>1</value>
+              </array>
+              <value name="preFunction">-1</value>
+              <array name="preFnArgs" type="value" depth="1">
+                <null/>
+              </array>
+              <record name="attrib" javaclass="com.wm.app.tn.doc.BizDocAttribute">
+                <value name="AttributeID">ReceiverID</value>
+                <value name="AttributeName">envelope</value>
+                <null name="AttributeDescription"/>
+                <value name="AttributeType">STRING</value>
+                <idatacodable name="Deleted?" javaclass="com.wm.data.MBoolean">                  <value name="MBoolean">false</value>
+                </idatacodable>
+                <idatacodable name="Persist?" javaclass="com.wm.data.MBoolean">                  <value name="MBoolean">true</value>
+                </idatacodable>
+                <null name="LastModifiedTime"/>
+                <value name="VERSION_NO">9.0.1.0</value>
+                <idatacodable name="System?" javaclass="com.wm.data.MBoolean">                  <value name="MBoolean">false</value>
+                </idatacodable>
+              </record>
+              <value name="IDTypeName">DUNS</value>
+              <value name="VERSION_NO">10.3.0.0</value>
+            </record>
+            <value name="VERSION_NO">10.3.0.0</value>
+          </idatacodable>
+        </record>
+        <null name="nsDecls"/>
+        <record name="attribQueries" javaclass="com.wm.data.ISMemDataImpl">
+          <value name="53o6ug008ibaovu50000000v">/Partner1[0]/PurchaseOrder[0]/totalCost[0]</value>
+        </record>
+        <array name="qryEvals" type="value" depth="1">
+        </array>
+        <value name="docType">Partner1</value>
+        <value name="dtd"></value>
+        <null name="sig_queries"/>
+        <value name="VERSION_NO">10.3.0.0</value>
+      </idatacodable>
+    </record>
+  </record>
+</IDataXMLCoder>
